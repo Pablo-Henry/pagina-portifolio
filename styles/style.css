@@ -123,13 +123,14 @@ body{
     padding: 24px;
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 480px) and (max-width: 1200px) {
     .cabecalho{
         padding: 10%        /*altera o padding de acordo com a largura da tela*/
     }
 
     .cabecalho__menu{
-        justify-content: center;     /*alinha os links no meio*/
+        justify-content: center; /*alinha os links no meio*/
+        gap: 20px;
     }
 
     .apresentacao{
@@ -139,5 +140,9 @@ body{
 
     .apresentacao__conteudo{
         width: auto;
+    }
+
+    .lista{
+        padding: 5%;
     }
 }
