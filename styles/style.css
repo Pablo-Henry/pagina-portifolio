@@ -130,7 +130,7 @@ body{
 
     .cabecalho__menu{
         justify-content: center; /*alinha os links no meio*/
-        gap: 20px;
+        gap: 22px;
     }
 
     .apresentacao{
@@ -143,6 +143,6 @@ body{
     }
 
     .lista{
-        padding: 5%;
+        padding: 4%;
     }
 }
