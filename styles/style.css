@@ -58,6 +58,7 @@ body{
 .apresentacao__conteudo__subtitulo{
     font-family: 'Krona One', sans-serif;
     font-size: 1.7rem;
+    margin: 0 2em;
 }
 
 .titulo-destaque{
@@ -107,6 +108,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-size: 1.3rem;
     padding: 10px;
+    margin: 0 4em;
 }
 
 .apresentacao__imagem{
